@@ -70,13 +70,13 @@
                 >About</a
               >
             </li>
-            <li class="nav-item mx-0 mx-lg-1">
+            <!-- <li class="nav-item mx-0 mx-lg-1">
               <a
                 class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                 href="#contact"
                 >Contact</a
               >
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -152,25 +152,25 @@
             </div>
           </div>
 
-                    <!-- Portfolio Item 3 -->
-            <div class="col-md-6 col-lg-4">
+          <!-- Portfolio Item 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal3"
+            >
               <div
-                class="portfolio-item mx-auto"
-                data-toggle="modal"
-                data-target="#portfolioModal3"
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
               >
                 <div
-                  class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                  class="portfolio-item-caption-content text-center text-white"
                 >
-                  <div
-                    class="portfolio-item-caption-content text-center text-white"
-                  >
-                    <i class="fas fa-plus fa-3x"></i>
-                  </div>
+                  <i class="fas fa-plus fa-3x"></i>
                 </div>
-                <img class="img-fluid" src="img/portfolio/rocket.png" alt="" />
               </div>
+              <img class="img-fluid" src="img/portfolio/rocket.png" alt="" />
             </div>
+          </div>
 
           <!-- Portfolio Item 1 -->
           <div class="col-md-6 col-lg-4">
@@ -285,31 +285,31 @@
         <div class="row">
           <div class="col-lg-4 ml-auto">
             <p class="lead">
-              Proficient full stack developer with over 3 years of experience. 
-              Seeking a role where I could utilize my front-end, back-end, and database skills.
+              Proficient full stack developer with over 3 years of experience.
+              Seeking a role where I could utilize my front-end, back-end, and
+              database skills.
             </p>
           </div>
           <div class="col-lg-4 mr-auto">
             <p class="lead">
-              I have passion for bring ideas to fruition. Creating applications from scratch and going through the 
-              entire lifecycle in web development.  
+              I have passion for bring ideas to fruition. Creating applications
+              from scratch and going through the entire lifecycle in web
+              development.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="page-section" id="contact">
+    <!-- Contact Section
+      <section class="page-section" id="contact">
       <div class="container">
-        <!-- Contact Section Heading -->
         <h2
           class="page-section-heading text-center text-uppercase text-secondary mb-0"
         >
           Contact Me
         </h2>
 
-        <!-- Icon Divider -->
         <div class="divider-custom">
           <div class="divider-custom-line"></div>
           <div class="divider-custom-icon">
@@ -358,7 +358,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Footer -->
     <footer class="footer text-center">
@@ -366,19 +366,26 @@
         <div class="row">
           <!-- Footer Location -->
           <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Location</h4>
+            <h4 class="text-uppercase mb-4">Contact:</h4>
             <p class="lead mb-0">
-              12635 Main St. Unit 115. <br />Garden Grove, CA 92840
+              <p>ElbertBalloDev@gmail.com</p>
+              <p>(213) 321-6581</p>
             </p>
           </div>
 
           <!-- Footer Social Icons -->
           <div class="col-lg-4 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Around the Web</h4>
-            <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://github.com/EballoFullStackDev"
+            >
               <i class="fab fa-fw fa-github"></i>
             </a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://www.linkedin.com/in/elbertballo/"
+            >
               <i class="fab fa-fw fa-linkedin-in"></i>
             </a>
           </div>
@@ -590,6 +597,15 @@
                       >Live Demo</a
                     >
                   </p>
+                  <p>
+                    A full-stack, GraphQL-powered app built with the Apollo
+                    platform. Users are able to reserve a seat on an upcoming
+                    SpaceX launch. All of the data is real, acquired through the
+                    SpaceX API (https://github.com/r-spacex/SpaceX-API).
+                  <p>
+                    Technology: GraphQL, Apollo Server, Apollo Client, Node.js,
+                    REST, JavaScript, SQLite, React
+                  </p>
                   <button class="btn btn-primary" href="#" data-dismiss="modal">
                     <i class="fas fa-times fa-fw"></i>
                     Close Window
@@ -651,6 +667,7 @@
                   <p class="mb-5">
                     <a href="http://dba5wdd4uorvb.cloudfront.net/">Live Demo</a>
                   </p>
+                  <p>A simple note taking app called Scratch. It is a single page application powered by a serverless API written completely in JavaScript. This is the complete source for the backend.</p>
                   <button class="btn btn-primary" href="#" data-dismiss="modal">
                     <i class="fas fa-times fa-fw"></i>
                     Close Window
@@ -713,6 +730,14 @@
                   <p class="mb-5">
                     <a href="https://elberts-bank.herokuapp.com/">Live Demo</a>
                   </p>
+                  <p>Full-stack banking web app built with Plaid's API and the MERN stack.
+                    This project uses the following technologies:
+                    React and React Router for the frontend
+                    Express and Node for the backend
+                    MongoDB for the database
+                    Redux for global state management
+                    Plaid for bank account linkage and transaction data
+                    Passport and JWTs for authentication</p>
                   <button class="btn btn-primary" href="#" data-dismiss="modal">
                     <i class="fas fa-times fa-fw"></i>
                     Close Window
